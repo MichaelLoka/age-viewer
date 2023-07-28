@@ -6,8 +6,8 @@
 </p>
 
 # What is Apache-Age Viewer
-Apache-Age Viewer is a web based user interface that provides visualization of graph data stored in a postgreSQL database with AGE extension. 
-It is graph visualisation tool, for Apache AGE.
+Apache-Age Viewer is a web-based user interface that provides visualization of graph data stored in a PostgreSQL database with AGE extension. It is a graph visualization tool, for Apache AGE.
+This is a sub-project of the Apache AGE project.
 
 This is a sub-project of [the Apache AGE project](https://age.apache.org/#).
 
@@ -21,7 +21,7 @@ Install latest **pm2** with :
 ``` npm i pm2 ```
 
 
-> [pm2](https://www.npmjs.com/package/pm2) is an NPM module to run the project in production mode, and hence is optional for getting started with setting up development environment for Age-Viewer 
+> [pm2](https://www.npmjs.com/package/pm2) is an NPM module to run the project in production mode, and hence is optional for getting started with setting up a development environment for Age-Viewer 
 
 # Running Age-Viewer
 
@@ -33,12 +33,12 @@ Install latest **pm2** with :
 >This will start the age-viewer on http://localhost:3000 if port 3000 is free.
 
 
-# How to build using command
+# How to build using the command
 
-- Build the front-end : 
+- Build the front end: 
 ```npm run build-front ```
 
-- Build the back-end :
+- Build the back end:
 ``` npm run build-back```
 
 - Start the project in production mode :
@@ -52,7 +52,7 @@ Install latest **pm2** with :
 	```
 
   # How to start using Age-Viewer
- - To start using Age-Viewer we need to have a running postgreSQL database server with Apache Age Extension 
+ - To start using Age-Viewer we need to have a running PostgreSQL database server with Apache Age Extension 
 	 ### Setting up the PostgreSQL server with AGE extension
 	-  Easiest way  for Windows, Mac-OS and Linux Environment using **Docker**
   
